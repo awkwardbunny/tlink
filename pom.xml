@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>xyz.thoams</groupId>
+  <artifactId>tlink</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>tlink</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring.version>5.0.1.RELEASE</spring.version>
+    <springboot-starter.version>1.5.8.RELEASE</springboot-starter.version>
+	<maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
+  </properties>
+
+  <modules>
+  	<module>tlink-api</module>
+  </modules>
+</project>
